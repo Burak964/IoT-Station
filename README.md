@@ -53,6 +53,42 @@ Der BMP280 misst:
 Messintervall:
 - Alle 2 Sekunden
 
+# 🔌 Schaltplan
+
+## Sender (ESP A + BMP280)
+
+Der Sender besteht aus einem ESP32 und einem BMP280 Sensor.
+
+Verdrahtung:
+
+| BMP280 | ESP32 |
+|--------|--------|
+| VCC | 3.3V |
+| GND | GND |
+| SDA | GPIO 21 |
+| SCL | GPIO 22 |
+
+Schaltplan:
+
+![Sender Schaltplan](schaltplan/Sender_Schaltplan.png)
+
+---
+
+## Receiver (ESP B + Buzzer)
+
+Der Receiver besteht aus einem ESP32 und einem Allnet Buzzer.
+
+Verdrahtung:
+
+| Buzzer | ESP32 |
+|--------|--------|
+| Signal | GPIO 27 |
+| GND | GND |
+
+Schaltplan:
+
+![Receiver Schaltplan](schaltplan/Eeceiver_Schaltplan.png)
+
 Übertragene Datenstruktur:
 
 ```cpp
