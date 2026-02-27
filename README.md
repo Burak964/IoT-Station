@@ -87,9 +87,9 @@ Verdrahtung:
 
 Schaltplan:
 
-![Receiver Schaltplan](schaltplan/Eeceiver_Schaltplan.png)
+![Receiver Schaltplan](Bildschirmfotos/Empfänger_Schaltplan.png)
 
-Übertragene Datenstruktur:
+# Übertragene Datenstruktur:
 
 ```cpp
 typedef struct __attribute__((packed)) {
