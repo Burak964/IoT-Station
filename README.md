@@ -87,7 +87,7 @@ Verdrahtung:
 
 Schaltplan:
 
-![Receiver Schaltplan](Bildschirmfotos/Empfänger_Schaltplan.png)
+![Empfänger Schaltplan](schaltplan/Empfänger_Schaltplan.png)
 
 # Übertragene Datenstruktur:
 
