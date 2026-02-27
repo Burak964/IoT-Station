@@ -14,12 +14,11 @@ Systemtechnik (SYT)
 
 Ziel dieses Projekts war es, zwei ESP32 Mikrocontroller zu einer IoT-Station zu entwickeln.
 
-Ein ESP32 (Sender) misst Temperatur und Luftdruck mit einem **BMP280 Sensor** und überträgt die Daten mittels **ESP-NOW** an einen zweiten ESP32 (Receiver).
+Ein ESP32 (Sender) misst Temperatur und Luftdruck mit einem **BMP280 Sensor** und überträgt die Daten mittels **ESP-NOW** an einen zweiten ESP32 (Receiver).Es stellt auch WIFI-Manager zur verfügung.
 
 Der Receiver:
 - visualisiert die Daten in einem Webinterface
 - speichert historische Durchschnittswerte
-- stellt ein WIFI-Manager bereit
 - steuert einen Buzzer als Aktor
 
 ---
