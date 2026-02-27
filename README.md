@@ -19,7 +19,7 @@ Ein ESP32 (Sender) misst Temperatur und Luftdruck mit einem **BMP280 Sensor** un
 Der Receiver:
 - visualisiert die Daten in einem Webinterface
 - speichert historische Durchschnittswerte
-- stellt eine API bereit
+- stellt ein WIFI-Manager bereit
 - steuert einen Buzzer als Aktor
 
 ---
