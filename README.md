@@ -92,10 +92,32 @@ typedef struct __attribute__((packed)) {
 ```
 # Quellen
 
+## ESP32 & ESP-NOW
 - https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/
-- https://github.com/tzapu/WiFiManager
-- https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout
+- https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html
+- https://www.espressif.com/en/products/socs/esp32
 
+## WiFi & Webserver
+- https://randomnerdtutorials.com/esp32-web-server-arduino-ide/
+- https://github.com/me-no-dev/ESPAsyncWebServer
+- https://github.com/me-no-dev/AsyncTCP
+
+## WiFiManager
+- https://github.com/tzapu/WiFiManager
+
+## Sensor BMP280
+- https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout
+- https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf
+
+## Arduino & Programmierung
+- https://www.arduino.cc/reference/en/
+- https://docs.arduino.cc/
+
+## JavaScript Chart (Webinterface)
+- https://www.chartjs.org/docs/latest/
+
+## Eigene Arbeit
+- Eigene Implementierung und Entwicklung im Rahmen des SYT-Projekts
 # Projektfotos
 
 ## Gesamtaufbau
