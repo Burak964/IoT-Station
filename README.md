@@ -88,3 +88,10 @@ typedef struct __attribute__((packed)) {
   float tempC;
   float pressurePa;
 } SensorPacket;
+---
+```
+# Quellen
+
+- https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/
+- https://github.com/tzapu/WiFiManager
+- https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout
