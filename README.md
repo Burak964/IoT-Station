@@ -99,10 +99,10 @@ typedef struct __attribute__((packed)) {
 # Projektfotos
 
 ## Gesamtaufbau
-<img src="images/gesamtaufbau.jpg" width="300">
+<img src="images/GesamtAufbau.jpg" width="300">
 
 ## Sensor (BMP280)
-<img src="images/sensoren.jpg" width="300">
+<img src="images/SensorenAufbau.jpg" width="300">
 
 ## Aufbau im Detail
 <img src="images/aufbau.jpg" width="300">
