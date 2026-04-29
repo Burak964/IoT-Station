@@ -95,3 +95,9 @@ typedef struct __attribute__((packed)) {
 - https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/
 - https://github.com/tzapu/WiFiManager
 - https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout
+
+# Projektfotos
+
+![Gesamtaufbau](images/GesamtAufbau.jpeg)
+![Sensoren](images/SensorenAufbau.jpeg)
+![Aufbau](images/aufbau.jpeg)
