@@ -88,21 +88,8 @@ Schaltplan:
 
 ![Empfänger Schaltplan](schaltplan/Empfänger_Schaltplan.png)
 
-# Übertragene Datenstruktur:
-
-```cpp
-typedef struct __attribute__((packed)) {
-  uint32_t seq;
-  float tempC;
-  float pressurePa;
-} SensorPacket;
-
----
-
-# Programmcode
-
+# Programmcode:
 ## ESP A – Sender mit BMP280, WiFiManager und ESP-NOW
-
 Der Sender liest alle 2 Sekunden Temperatur und Luftdruck vom BMP280 aus und sendet die Werte per ESP-NOW an den Receiver.
 
 ```cpp
@@ -200,3 +187,5 @@ void loop() {
 
   delay(2000);
 }
+
+---
