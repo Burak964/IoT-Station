@@ -98,6 +98,6 @@ typedef struct __attribute__((packed)) {
 
 # Projektfotos
 
-![Gesamtaufbau](images/GesamtAufbau.jpeg)
-![Sensoren](images/SensorenAufbau.jpeg)
-![Aufbau](images/aufbau.jpeg)
+![Gesamtaufbau](images/GesamtAufbau.jpg)
+![Sensoren](images/SensorenAufbau.jpg)
+![Aufbau](images/aufbau.jpg)
